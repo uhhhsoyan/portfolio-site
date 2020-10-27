@@ -5,11 +5,10 @@ const SideNav = () => {
     return (
         <div className="sidenav">
             <p className="sidenav-title">Eric Essoyan</p>
-            <a href="#">Home</a>
-            <a href="#">About Me</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Resume</a>
-            <a href="#">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#about-me">About Me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </div>
     )
 }
