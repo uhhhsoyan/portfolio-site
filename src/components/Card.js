@@ -22,7 +22,7 @@ const Card = ({ title, platform, tech, cardNumber, description }) => {
         </div>
       </div>
       <div className="card__side card__side--back card__side--back-1">
-        <a href="#" className="btn btn--white">Learn more</a>
+        <a href="#portfolio" className="btn btn--white">Learn more</a>
       </div>
     </div>
   )

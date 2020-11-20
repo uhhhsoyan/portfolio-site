@@ -4,10 +4,10 @@ import '../styles/css/index.css';
 const Hero = () => {
   return (
     <div className="section-hero" id="home">
-      <div class="section-hero__text-box">
-        <h1 class="heading-primary">
-          <span class="heading-primary--main">Hi, I'm Eric.</span>
-          <span class="heading-primary--sub">a front-end software engineer</span>
+      <div className="section-hero__text-box">
+        <h1 className="heading-primary">
+          <span className="heading-primary--main">Hi, I'm Eric.</span>
+          <span className="heading-primary--sub">a front-end software engineer</span>
         </h1>
       </div>
       <div className="section-hero__learn-more">
