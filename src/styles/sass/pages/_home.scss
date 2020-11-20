@@ -1,0 +1,48 @@
+.section {
+  margin-left: 20%;
+
+  &-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../../assets/img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+
+    &__text-box {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    &__learn-more {
+      position: absolute;
+      bottom: 5%;
+      left: 50%;
+      transform: translate(-50%);
+      text-align: right;
+    }
+  }
+
+  &-about {
+    background-color: $color-grey-light-1;
+    padding: 5rem 0 10rem 0;
+
+    &__photo {
+      width: 55%; // always good to define images with % and not rem
+      box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+    }
+  }
+
+  &-portfolio {
+    background-color: $color-white;
+    padding: 5rem 0;
+  }
+
+  &-contact {
+    background-color: $color-grey-light-1;
+    padding: 25rem 0 50rem 0;
+  }
+}

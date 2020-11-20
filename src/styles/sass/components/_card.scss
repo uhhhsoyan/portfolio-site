@@ -1,0 +1,114 @@
+.card {
+  // FUNCTIONALITY
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 45rem; // add height here to fix the zero height issue when
+  // setting position to absolute for the sides (like float and clearfix)
+
+  &__side {
+    height: 45rem;
+    transition: all 0.8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+
+    &--front {
+      background-color: $color-white;
+    }
+
+    &--back {
+      transform: rotateY(180deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &-1 {
+        background-image: linear-gradient(
+          to right bottom,
+          $color-primary-light,
+          $color-primary-dark
+        );
+      }
+    }
+  }
+
+  &:hover &__side--front {
+    transform: rotateY(-180deg);
+  }
+
+  &:hover &__side--back {
+    transform: rotateY(0);
+  }
+
+  // FRONT SIDE STYLING
+  &__picture {
+    background-size: cover;
+    background-position: top;
+    height: 23rem;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+    &--1 {
+      background-image: url(../../assets/img/thumbnail-spotify.jpg);
+    }
+
+    &--2 {
+      background-image: url(../../assets/img/thumbnail-weather-web.jpg);
+    }
+
+    &--3 {
+      background-image: url(../../assets/img/thumbnail-quiz.jpg);
+    }
+
+    &--4 {
+      background-image: url(../../assets/img/thumbnail-omnifood.jpg);
+    }
+
+    &--5 {
+      background-image: url(../../assets/img/thumbnail-windbnb-web.jpg);
+    }
+
+    &--6 {
+      background-image: url(../../assets/img/thumbnail-weather-web.jpg);
+    }
+  }
+
+  &__heading {
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    color: $color-white;
+    position: absolute;
+    top: 20rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+
+  &__heading-span {
+    padding: 1rem 1rem;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.85),
+      rgba($color-primary-dark, 0.85)
+    );
+  }
+
+  &__details {
+    padding: 3rem;
+
+    &--sub-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}

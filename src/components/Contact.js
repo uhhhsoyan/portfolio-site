@@ -1,9 +1,9 @@
 import React from 'react';
-import './Contact.css';
+import '../styles/css/index.css';
 
 const Contact = () => {
     return (
-        <div className="contact-container" id="contact">
+        <div className="section-contact" id="contact">
             Contact Section
         </div>
     )

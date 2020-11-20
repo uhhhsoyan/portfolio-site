@@ -1,4 +1,5 @@
-import './App.css';
+import '../styles/css/index.css';
+import Hero from './Hero';
 import SideNav from './SideNav';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
@@ -8,9 +9,8 @@ function App() {
   return (
     <div>
       <SideNav />
-      <div className="main">
-        <div className="hero" id="home">
-        </div>
+      <div className="section">
+        <Hero />
         <AboutMe />
         <Portfolio />
         <Contact />
