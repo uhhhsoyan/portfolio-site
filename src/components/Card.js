@@ -1,11 +1,13 @@
 import React from 'react';
 import '../styles/css/index.css';
 
-const Card = ({ title, platform, tech, cardNumber, description }) => {
+const Card = ({ title, platform, tech, id, setFocusedProject, cardNumber, description }) => {
+  
+  
   return (
     <div className="card">
       <div className="card__side card__side--front">
-        <div className={`card__picture card__picture--${cardNumber}`}>
+        <div className={`card__picture card__picture--${id}`}>
           &nbsp;
         </div>
         <h4 className="card__heading">
@@ -22,7 +24,7 @@ const Card = ({ title, platform, tech, cardNumber, description }) => {
         </div>
       </div>
       <div className="card__side card__side--back card__side--back-1">
-        <a href="#portfolio" className="btn btn--white">Learn more</a>
+        <a href="#popup" onClick={() => setFocusedProject(id)} className="btn btn--white">Learn more</a>
       </div>
     </div>
   )

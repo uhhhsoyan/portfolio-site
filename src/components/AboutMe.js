@@ -20,7 +20,7 @@ const AboutMe = () => {
           <h3 className="heading-tertiary u-margin-bottom-small">My background</h3>
           <p className="paragraph">
             I studied Mechanical Engineering at Duke University, worked as a management consultant at Kearney,
-            joined the faimly real estate business - all the while building out my front-end skillset and portfolio. 
+            and recently joined the family real estate business - all the while building out my front-end skillset and portfolio. 
           </p>
           <p className="paragraph">
             I also like to jump out of perfectly good airplanes :)

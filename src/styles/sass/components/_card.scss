@@ -55,27 +55,27 @@
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
-    &--1 {
+    &--spotify-mobile {
       background-image: url(../../assets/img/thumbnail-spotify.jpg);
     }
 
-    &--2 {
-      background-image: url(../../assets/img/thumbnail-weather-web.jpg);
+    &--weather-mobile {
+      background-image: url(../../assets/img/thumbnail-weather-mobile.PNG);
     }
 
-    &--3 {
+    &--quiz-web {
       background-image: url(../../assets/img/thumbnail-quiz.jpg);
     }
 
-    &--4 {
-      background-image: url(../../assets/img/thumbnail-omnifood.jpg);
+    &--omnifood-web {
+      background-image: url(../../assets/img/thumbnail-omnifood-3.png);
     }
 
-    &--5 {
+    &--windbnb-web {
       background-image: url(../../assets/img/thumbnail-windbnb-web.jpg);
     }
 
-    &--6 {
+    &--weather-web {
       background-image: url(../../assets/img/thumbnail-weather-web.jpg);
     }
   }
