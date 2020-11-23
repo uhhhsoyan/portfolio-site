@@ -7,10 +7,11 @@
   left: 0;
   background-color: #fff; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 5%;
-  padding-left: 2%;
+  padding: 6rem 2rem 1rem;
 
-  &-title {
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+
+  &__title {
     color: #000;
     font-size: 2rem;
     font-weight: 700;
@@ -18,15 +19,32 @@
     margin-bottom: 50px;
   }
 
-  & a {
+  &__footer {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__icon {
+    font-size: 2rem;
+  }
+
+  &__menu-items {
     padding: 0.5rem 0.8rem 0.6rem 1.6rem;
-    text-decoration: none;
     font-size: 1.8rem;
+  }
+
+  & a {
+    text-decoration: none;
     color: #818181;
     display: block;
   }
 
   & a:hover {
-    color: #f1f1f1;
+    color: $color-primary;
   }
 }

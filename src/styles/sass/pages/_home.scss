@@ -37,12 +37,39 @@
   }
 
   &-portfolio {
+    background-color: $color-white;
+    padding: 5rem 0 10rem;
+  }
+
+  &-resume {
     background-color: $color-grey-light-1;
-    padding: 5rem 0;
+    padding: 5rem 0 10rem 0;
+
+    &__column-list {
+      -moz-column-count: 2;
+      -moz-column-gap: 4rem;
+      column-count: 2;
+      column-gap: 4rem;
+    }
+
+    &__list-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    ul {
+      margin-bottom: 3rem;
+    }
+
+    li {
+      list-style: none;
+      font-size: 1.5rem;
+    }
   }
 
   &-contact {
-    background-color: $color-grey-light-1;
+    background-color: $color-white;
     padding: 5rem 0 10rem;
   }
 }

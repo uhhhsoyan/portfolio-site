@@ -3,6 +3,7 @@ import Hero from './Hero';
 import SideNav from './SideNav';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
+import Resume from './Resume';
 import Contact from './Contact';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Hero />
         <AboutMe />
         <Portfolio />
+        <Resume />
         <Contact />
       </div>
     </div>
