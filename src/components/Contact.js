@@ -14,7 +14,7 @@ const Contact = () => {
           <div className="row">
             <div className="col-1-of-3">
               <div className="contact-icons__container">
-                <a href="mailto:eric.essoyan@gmail.com" target="_blank" className="contact-icons__anchor">
+                <a href="mailto:eric.essoyan@gmail.com" target="_blank" rel="noreferrer" className="contact-icons__anchor">
                   <h3><HiOutlineMail className="contact-icons__icon"/></h3>
                   <h3 className="heading-tertiary">eric.essoyan@gmail.com</h3>
                 </a>
@@ -22,7 +22,7 @@ const Contact = () => {
             </div>
             <div className="col-1-of-3">
               <div className="contact-icons__container">
-                <a href="https://github.com/uhhhsoyan" target="_blank" className="contact-icons__anchor">
+                <a href="https://github.com/uhhhsoyan" target="_blank" rel="noreferrer" className="contact-icons__anchor">
                   <h3><FaGithub className="contact-icons__icon"/></h3>
                   <h3 className="heading-tertiary">github.com/uhhhsoyan</h3>
                 </a>
@@ -30,7 +30,7 @@ const Contact = () => {
             </div>
             <div className="col-1-of-3">
               <div className="contact-icons__container">
-                <a href="https://www.linkedin.com/in/eric-essoyan-a166a48a/" target="_blank" className="contact-icons__anchor">
+                <a href="https://www.linkedin.com/in/eric-essoyan-a166a48a/" target="_blank" rel="noreferrer" className="contact-icons__anchor">
                   <h3><FaLinkedin className="contact-icons__icon"/></h3>
                   <h3 className="heading-tertiary">linkedin.com/eric-essoyan</h3>
                 </a>

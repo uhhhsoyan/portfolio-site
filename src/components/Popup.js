@@ -33,7 +33,15 @@ const Popup = ({ details }) => {
           <p className="popup__text">
             {details.description}
           </p>
-          <a href={details.github} target="_blank" className="btn btn--blue">github</a>
+          <a href={details.github} target="_blank" rel="noreferrer" className="btn btn--blue">
+            
+            See it on github
+          </a>
+          {details.site ? (
+            <a href={details.github} target="_blank" rel="noreferrer" className="btn btn--blue">Go to site</a>
+          ) : (
+            null
+          )}
         </div>
       </div>
     </div>
