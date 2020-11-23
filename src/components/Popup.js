@@ -15,9 +15,17 @@ const Popup = ({ details }) => {
     <div className="popup" id="popup">
       <div className="popup__content">
         <div className="popup__left">
-          <video className="popup__video" controls muted>
-            <source src={details.video} type="video/mp4" />
-          </video>
+          <div className="video-wrapper">
+            <ReactPlayer
+              className="video-player"
+              url={details.video}
+              playing={true}
+              loop={true}
+              muted={true}
+              width='85%'
+              height='85%'
+            />
+          </div>
         </div>
         <div className="popup__right">
           <a href="#section-tours" className="popup__close">&times;</a>

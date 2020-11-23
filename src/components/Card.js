@@ -17,8 +17,7 @@ const Card = ({ title, platform, tech, id, setFocusedProject, cardNumber, descri
         </h4>
         <div className="card__details">
           <div className="card__details--sub-header">
-            <h1>{platform}</h1>
-            <h1>{tech}</h1>
+            <h1>{platform} | {tech}</h1>
           </div>
           <p className="paragraph">{description}</p>
         </div>
