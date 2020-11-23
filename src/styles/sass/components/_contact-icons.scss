@@ -1,0 +1,16 @@
+.contact-icons {
+  &__icon {
+    font-size: 10rem;
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  &__anchor {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $color-primary-dark;
+    margin-bottom: 4rem;
+  }
+}

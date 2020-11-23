@@ -50,9 +50,9 @@ const Portfolio = () => {
                 title='Country Quiz'
                 platform='Web'
                 tech='React'
-                id='quiz-web'
+                id='country-quiz-web'
                 setFocusedProject={setFocusedProject}
-                description='A react native clone of the current Spotify mobile app, powered by the Spotify Web API'
+                description='React web app that quizzes users on country flags and capitals'
               />
             </div>
           </div>

@@ -3,8 +3,6 @@ import ReactPlayer from 'react-player';
 
 const Popup = ({ details }) => {
 
-  console.log(details.video)
-
   /*
   <video className="popup__video" controls muted>
     <source src={details.video} type="video/mp4" />
