@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="section-contact" id="contact">
           <div className="u-center-text u-margin-bottom-large">
             <h2 className="heading-secondary">
-              Let's Connect
+              Contact Me
             </h2>
           </div>
           <div className="row">

@@ -8,8 +8,10 @@
   background-color: #fff; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding: 6rem 2rem 1rem;
-
   box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+  @include respond(phone) {
+    visibility: hidden;
+  }
 
   &__title {
     color: #000;

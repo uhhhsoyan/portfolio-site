@@ -38,9 +38,13 @@
     padding: 3rem 5rem;
   }
 
+  h3 {
+    text-transform: none;
+    font-size: 2rem;
+  }
+
   &__text {
-    font-size: 1.4rem;
-    margin-bottom: 4rem;
+    font-size: 1.5rem;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
@@ -74,6 +78,15 @@
     &:hover {
       color: $color-primary;
     }
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
   }
 }
 

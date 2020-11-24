@@ -32,7 +32,7 @@ const Portfolio = () => {
                 tech='React Native'
                 id='spotify-mobile'
                 setFocusedProject={setFocusedProject}
-                description='A react native clone of the current Spotify mobile app, powered by the Spotify Web API'
+                description='React native clone of the Spotify mobile app with full search and playback functionality. Powered by Spotify Web API.'
               />
             </div>
             <div className="col-1-of-3">
@@ -42,7 +42,7 @@ const Portfolio = () => {
                 tech='React Native'
                 id='weather-mobile'
                 setFocusedProject={setFocusedProject}
-                description='A react native clone of the current Spotify mobile app, powered by the Spotify Web API'
+                description='Simple weather mobile app enabling users to search a location and view forecast and various weather highlights. Powered by Metaweather API.'
               />
             </div>
             <div className="col-1-of-3">
@@ -52,7 +52,7 @@ const Portfolio = () => {
                 tech='React'
                 id='country-quiz-web'
                 setFocusedProject={setFocusedProject}
-                description='React web app that quizzes users on country flags and capitals'
+                description='React web app that quizzes users on country flags and capitals, with randomly generated questions from the REST Countries API.'
               />
             </div>
           </div>
@@ -64,7 +64,7 @@ const Portfolio = () => {
                 tech='CSS'
                 id='omnifood-web'
                 setFocusedProject={setFocusedProject}
-                description='A react native clone of the current Spotify mobile app, powered by the Spotify Web API'
+                description='Beautiful landing page for a hypothetical food delivery company, built entirely with HTML and CSS.'
               />
             </div>
             <div className="col-1-of-3">
@@ -74,7 +74,7 @@ const Portfolio = () => {
                 tech='React'
                 id='windbnb-web'
                 setFocusedProject={setFocusedProject}
-                description='A react native clone of the current Spotify mobile app, powered by the Spotify Web API'
+                description='Mini Airbnb app allowing users to search for stays, filter by location and guests, and view results.'
               />
             </div>
             <div className="col-1-of-3">
@@ -84,7 +84,7 @@ const Portfolio = () => {
                 tech='React'
                 id='weather-web'
                 setFocusedProject={setFocusedProject}
-                description='A react native clone of the current Spotify mobile app, powered by the Spotify Web API'
+                description='Simple weather web app enabling users to search a location and view forecast and various weather highlights. Powered by Metaweather API.'
               />
             </div>
           </div>

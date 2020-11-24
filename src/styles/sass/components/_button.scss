@@ -29,6 +29,18 @@
     background-color: $color-primary;
     color: $color-white;
   }
+
+  &__icon {
+    font-size: 2.5rem;
+    margin-right: 1rem;
+  }
+
+  &__icon-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
 
 .btn-text {

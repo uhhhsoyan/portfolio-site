@@ -8,9 +8,9 @@ const PortfolioDetails = {
     title: 'Spotify Clone',
     subtitle: 'Watch out spotify, here comes Spotify 2',
     platform: 'Mobile',
-    tech: 'React Native',
+    tech: ['React Native', 'Hooks (React)', 'Context (React)', 'Axios', 'Expo-AV'],
     video: videoSpotify,
-    description: 'A react native clone of the current Spotify mobile app, powered by the Spotify Web API',
+    description: 'This project is a clone of the Spotify mobile app built with React Native. Users can use the tab navigator to access Home, Search, and Library screens. The app is connected to the Spotify Web API, enabling users to search for songs, artists, playlists, and more. The \'expo-av\' library for playback of selected audio in the app.',
     github: 'https://github.com/uhhhsoyan/spotify-mobile',
     site: null,
   },
@@ -32,7 +32,7 @@ const PortfolioDetails = {
     video: videoCountryQuiz,
     description: 'This quiz app randomly generates questions  ',
     github: 'https://github.com/uhhhsoyan/spotify-mobile',
-    site: null,
+    site: 'https://country-quiz.ericessoyan.me/',
   },
   'omnifood-web': {
     title: 'Omnifood',
@@ -48,3 +48,9 @@ const PortfolioDetails = {
 }
 
 export default PortfolioDetails;
+
+/*
+https://omnifood.ericessoyan.me/
+https://weather.ericessoyan.me/
+https://windbnb.ericessoyan.me/
+*/
