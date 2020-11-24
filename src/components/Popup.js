@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
 import { FaGithub } from 'react-icons/fa';
+import { MdWeb } from 'react-icons/md';
 
 const Popup = ({ details }) => {
 
@@ -42,13 +43,17 @@ const Popup = ({ details }) => {
                 </ul>
             </div>
           </div>
-          <a href={details.github} target="_blank" rel="noreferrer" className="btn btn--blue">
+          <a href={details.github} target="_blank" rel="noreferrer" className="btn btn--blue btn--icon">
             <div className="btn__icon-row" >
               <FaGithub className="btn__icon"/><p>Go to github</p>
             </div>
           </a>
           {details.site ? (
-            <a href={details.github} target="_blank" rel="noreferrer" className="btn btn--blue">Go to site</a>
+            <a href={details.site} target="_blank" rel="noreferrer" className="btn btn--blue btn--icon">
+              <div className="btn__icon-row" >
+              <MdWeb className="btn__icon"/><p>See it live</p>
+              </div>
+            </a>
           ) : (
             null
           )}

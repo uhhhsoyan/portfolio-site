@@ -2,10 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../styles/css/index.css';
 import Card from './Card';
 import Popup from './Popup';
-//import videoSpotify from '../assets/img/video-spotify-test.mp4';
 import PortfolioDetails from '../assets/content/PortfolioDetails';
-
-console.log(PortfolioDetails)
 
 const Portfolio = () => {
   const [focusedProject, setFocusedProject] = useState('spotify-mobile');
@@ -42,7 +39,7 @@ const Portfolio = () => {
                 tech='React Native'
                 id='weather-mobile'
                 setFocusedProject={setFocusedProject}
-                description='Simple weather mobile app enabling users to search a location and view forecast and various weather highlights. Powered by Metaweather API.'
+                description='Weather app enabling users to search locations and view corresponding forecast and weather data. Powered by Metaweather API.'
               />
             </div>
             <div className="col-1-of-3">
@@ -74,7 +71,7 @@ const Portfolio = () => {
                 tech='React'
                 id='windbnb-web'
                 setFocusedProject={setFocusedProject}
-                description='Mini Airbnb app allowing users to search for stays, filter by location and guests, and view results.'
+                description='Mock Airbnb mini-app allowing users to search for stays, filter by location and guests, and view results.'
               />
             </div>
             <div className="col-1-of-3">
@@ -84,7 +81,7 @@ const Portfolio = () => {
                 tech='React'
                 id='weather-web'
                 setFocusedProject={setFocusedProject}
-                description='Simple weather web app enabling users to search a location and view forecast and various weather highlights. Powered by Metaweather API.'
+                description='Weather app enabling users to search locations and view corresponding forecast and weather data. Powered by Metaweather API.'
               />
             </div>
           </div>

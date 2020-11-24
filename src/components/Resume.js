@@ -16,18 +16,18 @@ const Resume = () => {
               <div className="col-1-of-2">
                 <h3 className="heading-tertiary u-margin-bottom-medium u-center-text">Skills</h3>
                 <ul className="resume__list resume__list--columns-three">
-                  <li className="resume__item--icon"><FaReact color="#5ED4F3" className="resume__icon"/><span>React</span></li>
+                  <li className="resume__item--icon"><FaReact color="#5ED4F3" className="resume__icon"/>React</li>
                   <li className="resume__item--icon"><FaReact color="#5ED4F3" className="resume__icon" />React Native</li>
                   <li className="resume__item--icon"><SiJavascript color="#EFD91D" className="resume__icon" />Javascript</li>
                   <li className="resume__item--icon"><SiTypescript color="#3074C1" className="resume__icon" />Typescript</li>
-                  <li className="resume__item--icon"><FaNodeJs color="#539E43" className="resume__icon" /><span>NodeJS</span></li>
+                  <li className="resume__item--icon"><FaNodeJs color="#539E43" className="resume__icon" />NodeJS</li>
                   <li className="resume__item--icon"><FaHtml5 color="#DD4B24" className="resume__icon" />HTML</li>
                   <li className="resume__item--icon"><FaCss3Alt color="#2349DE" className="resume__icon" />CSS</li>
                   <li className="resume__item--icon"><FaSass color="#C76395" className="resume__icon" />Sass</li>
                   <li className="resume__item--icon"><SiPostgresql color="#32648D" className="resume__icon" />SQL</li>
                 </ul>
                 <h3 className="heading-tertiary u-margin-bottom-medium u-center-text">Proficient</h3>
-                <ul className="rsume__list resume__list--columns-two">
+                <ul className="resume__list resume__list--columns-four">
                   <li className="resume__item--icon"><SiJquery color="#0666A6" className="resume__icon" />JQuery</li>
                   <li className="resume__item--icon"><FaJava color="#E51C20" className="resume__icon" />Java</li>
                   <li className="resume__item--icon"><FaPython color="#F6BB07" className="resume__icon" />Python</li>
