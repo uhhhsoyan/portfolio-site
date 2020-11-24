@@ -14,40 +14,42 @@ const Resume = () => {
           </div>
           <div className="row">
               <div className="col-1-of-2">
-                <h3 className="heading-tertiary u-margin-bottom-small">Skills</h3>
-                <ul className="section-resume__column-list">
-                  <li className="section-resume__list-item"><FaReact />React</li>
-                  <li className="section-resume__list-item"><FaReact />React Native</li>
-                  <li className="section-resume__list-item"><SiJavascript />Javascript</li>
-                  <li className="section-resume__list-item"><SiTypescript />Typescript</li>
-                  <li className="section-resume__list-item"><FaNodeJs />NodeJS</li>
-                  <li className="section-resume__list-item"><FaHtml5 />HTML</li>
-                  <li className="section-resume__list-item"><FaCss3Alt />CSS</li>
-                  <li className="section-resume__list-item"><FaSass />Sass</li>
-                  <li className="section-resume__list-item"><SiPostgresql />SQL</li>
+                <h3 className="heading-tertiary u-margin-bottom-medium u-center-text">Skills</h3>
+                <ul className="resume__list resume__list--columns-three">
+                  <li className="resume__item--icon"><FaReact color="#5ED4F3" className="resume__icon"/><span>React</span></li>
+                  <li className="resume__item--icon"><FaReact color="#5ED4F3" className="resume__icon" />React Native</li>
+                  <li className="resume__item--icon"><SiJavascript color="#EFD91D" className="resume__icon" />Javascript</li>
+                  <li className="resume__item--icon"><SiTypescript color="#3074C1" className="resume__icon" />Typescript</li>
+                  <li className="resume__item--icon"><FaNodeJs color="#539E43" className="resume__icon" /><span>NodeJS</span></li>
+                  <li className="resume__item--icon"><FaHtml5 color="#DD4B24" className="resume__icon" />HTML</li>
+                  <li className="resume__item--icon"><FaCss3Alt color="#2349DE" className="resume__icon" />CSS</li>
+                  <li className="resume__item--icon"><FaSass color="#C76395" className="resume__icon" />Sass</li>
+                  <li className="resume__item--icon"><SiPostgresql color="#32648D" className="resume__icon" />SQL</li>
                 </ul>
-                <h3 className="heading-tertiary u-margin-bottom-small">Proficiencies</h3>
-                <ul className="section-resume__column-list">
-                  <li className="section-resume__list-item"><SiJquery />JQuery</li>
-                  <li className="section-resume__list-item"><FaJava />Java</li>
-                  <li className="section-resume__list-item"><FaPython />Python</li>
-                  <li className="section-resume__list-item"><DiRuby />Ruby</li>
+                <h3 className="heading-tertiary u-margin-bottom-medium u-center-text">Proficient</h3>
+                <ul className="rsume__list resume__list--columns-two">
+                  <li className="resume__item--icon"><SiJquery color="#0666A6" className="resume__icon" />JQuery</li>
+                  <li className="resume__item--icon"><FaJava color="#E51C20" className="resume__icon" />Java</li>
+                  <li className="resume__item--icon"><FaPython color="#F6BB07" className="resume__icon" />Python</li>
+                  <li className="resume__item--icon"><DiRuby color="#A51301" className="resume__icon" />Ruby</li>
                   </ul>
               </div>
               <div className="col-1-of-2">
-                <h3 className="heading-tertiary u-margin-bottom-small">Education</h3>
-                <ul>
-                  <li className="section-resume__list-item">MEng, Mechanical Engineering - Duke University</li>
-                  <li className="section-resume__list-item">BSE, Mechanical Engineering - Duke University</li>
+                <h3 className="heading-tertiary u-margin-bottom-small u-center-text">Education</h3>
+                <ul className="resume__list u-center-text">
+                  <li className="resume__item">MEng, Mechanical Engineering - Duke University</li>
+                  <li className="resume__item">BSE, Mechanical Engineering - Duke University</li>
+                  <li className="resume__item">&nbsp;</li>
                 </ul>
-                <h3 className="heading-tertiary u-margin-bottom-small">Relevant Coursework</h3>
-                <ul>
-                  <li className="section-resume__list-item">The Complete React Native + Hooks Course (S Grider)</li>
-                  <li className="section-resume__list-item">React Native: Advanced Concepts (S Grider)</li>
-                  <li className="section-resume__list-item">Modern React with Redux (S Grider)</li>
-                  <li className="section-resume__list-item">Typescript: Complete Developer's Guide (S Grider)</li>
-                  <li className="section-resume__list-item">The Complete JS Course (J Schmedtmann)</li>
-                  <li className="section-resume__list-item">Advanced CSS & Sass (J Schmedtmann)</li>
+                <h3 className="heading-tertiary u-margin-bottom-small u-center-text">Relevant Coursework</h3>
+                <ul className="resume__list u-center-text">
+                  <li className="resume__item">The Complete React Native + Hooks Course (S Grider)</li>
+                  <li className="resume__item">React Native: Advanced Concepts (S Grider)</li>
+                  <li className="resume__item">Modern React with Redux (S Grider)</li>
+                  <li className="resume__item">Typescript: Complete Developer's Guide (S Grider)</li>
+                  <li className="resume__item">The Complete JS Course (J Schmedtmann)</li>
+                  <li className="resume__item">Advanced CSS & Sass (J Schmedtmann)</li>
+                  <li className="resume__item">Data Structures & Algorithms: Java (Duke University)</li>
                 </ul>
               </div>
           </div>

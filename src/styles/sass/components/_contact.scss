@@ -1,0 +1,48 @@
+.contact {
+  &__heading {
+    text-transform: uppercase;
+    color: $color-white;
+    font-size: 2rem;
+  }
+
+  &__row {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__container {
+    width: 30%;
+  }
+
+  &__icon {
+    font-size: 10rem;
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  &__label {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: $color-white;
+    text-overflow: wrap;
+  }
+
+  &__anchor {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $color-white;
+    margin-bottom: 4rem;
+    transition: all 0.2s;
+
+    &:hover {
+      color: $color-primary-dark;
+      transform: translateY(-1rem) scale(1.1);
+      text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+    }
+  }
+}
