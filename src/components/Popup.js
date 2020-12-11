@@ -31,7 +31,7 @@ const Popup = ({ details }) => {
                 {details.description}
               </p>
               <p className="popup__text">
-                Click the links below to learn more!
+                Click below to learn more!
               </p>
             </div>
             <div className="col-1-of-3">

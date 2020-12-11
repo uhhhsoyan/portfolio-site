@@ -44,16 +44,26 @@ const Portfolio = () => {
             </div>
             <div className="col-1-of-3">
               <Card 
-                title='Country Quiz'
-                platform='Web'
-                tech='React'
-                id='country-quiz-web'
+                title='Windbnb'
+                platform='Mobile'
+                tech='React Native'
+                id='windbnb-mobile'
                 setFocusedProject={setFocusedProject}
-                description='React web app that quizzes users on country flags and capitals, with randomly generated questions from the REST Countries API.'
+                description='Mock Airbnb mini-app allowing users to search for stays, filter by location and guests, and view results.'
               />
             </div>
           </div>
           <div className="row">
+            <div className="col-1-of-3">
+                <Card 
+                  title='Country Quiz'
+                  platform='Web'
+                  tech='React'
+                  id='country-quiz-web'
+                  setFocusedProject={setFocusedProject}
+                  description='React web app that quizzes users on country flags and capitals, with randomly generated questions from the REST Countries API.'
+                />
+              </div>
             <div className="col-1-of-3">
               <Card 
                 title='Omnifood'
@@ -62,16 +72,6 @@ const Portfolio = () => {
                 id='omnifood-web'
                 setFocusedProject={setFocusedProject}
                 description='Beautiful landing page for a hypothetical food delivery company, built entirely with HTML and CSS.'
-              />
-            </div>
-            <div className="col-1-of-3">
-              <Card 
-                title='Windbnb'
-                platform='Web'
-                tech='React'
-                id='windbnb-web'
-                setFocusedProject={setFocusedProject}
-                description='Mock Airbnb mini-app allowing users to search for stays, filter by location and guests, and view results.'
               />
             </div>
             <div className="col-1-of-3">
