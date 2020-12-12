@@ -181,7 +181,8 @@ body {
   color: #fff; }
 
 .btn--icon {
-  margin-right: 2rem; }
+  margin-right: 2rem;
+  margin-top: 1rem; }
 
 .btn__icon {
   font-size: 2.5rem;
