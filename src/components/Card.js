@@ -20,6 +20,7 @@ const Card = ({ title, platform, tech, id, setFocusedProject, cardNumber, descri
             <h1>{platform} | {tech}</h1>
           </div>
           <p className="paragraph">{description}</p>
+          <a href="#popup" onClick={() => setFocusedProject(id)} className="btn-text-mobile">Learn more &rarr;</a>
         </div>
       </div>
       <div className="card__side card__side--back card__side--back-1">

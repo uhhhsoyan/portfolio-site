@@ -212,6 +212,20 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0); }
 
+.btn-text-mobile:link, .btn-text-mobile:visited {
+  display: none; }
+
+@media (max-width: 56.25em) {
+  .btn-text-mobile:link, .btn-text-mobile:visited {
+    color: #6096ba;
+    display: inline-block;
+    text-decoration: none;
+    transform: translateY(-1rem);
+    border-bottom: 1px solid #6096ba;
+    padding: 0 3px;
+    font-size: 1.6rem;
+    transition: all 0.2s; } }
+
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
@@ -228,6 +242,9 @@ body {
     overflow: hidden;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+    @media (max-width: 56.25em) {
+      .card__side {
+        height: 47rem; } }
     .card__side--front {
       background-color: #fff; }
     .card__side--back {
@@ -239,8 +256,14 @@ body {
         background-image: linear-gradient(to right bottom, #a3cef1, #274c77); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
+    @media (max-width: 56.25em) {
+      .card:hover .card__side--front {
+        transform: rotateY(0); } }
   .card:hover .card__side--back {
     transform: rotateY(0); }
+    @media (max-width: 56.25em) {
+      .card:hover .card__side--back {
+        transform: rotateY(180deg); } }
   .card__picture {
     background-size: cover;
     background-position: top;
@@ -275,7 +298,8 @@ body {
     padding: 1rem 1rem;
     background-image: linear-gradient(to right bottom, rgba(163, 206, 241, 0.85), rgba(39, 76, 119, 0.85)); }
   .card__details {
-    padding: 3rem; }
+    padding: 3rem;
+    position: relative; }
     .card__details--sub-header {
       display: flex;
       flex-direction: row;
@@ -452,11 +476,17 @@ body {
     width: 33%;
     display: table-cell;
     vertical-align: middle; }
+    @media (max-width: 56.25em) {
+      .popup__left {
+        width: 0%; } }
   .popup__right {
     width: 67%;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem 5rem; }
+    @media (max-width: 56.25em) {
+      .popup__right {
+        width: 100%; } }
   .popup h3 {
     text-transform: none;
     font-size: 2rem; }

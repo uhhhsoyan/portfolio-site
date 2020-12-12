@@ -13,7 +13,7 @@ const MobileNav = () => {
   return (
     <div className="mobile-nav">
       <input checked={menuOpen} onChange={toggleMenu} type="checkbox" className="mobile-nav__checkbox" id="navi-toggle" />
-      <label for="navi-toggle" className="mobile-nav__button">
+      <label htmlFor="navi-toggle" className="mobile-nav__button">
         <span className="mobile-nav__icon">&nbsp;</span>
       </label>
       <div className="mobile-nav__background">&nbsp;</div>

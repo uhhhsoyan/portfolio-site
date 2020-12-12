@@ -29,6 +29,10 @@
     width: 33%;
     display: table-cell;
     vertical-align: middle;
+
+    @include respond(tab-port) {
+      width: 0%
+    }
   }
 
   &__right {
@@ -36,6 +40,10 @@
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem 5rem;
+
+    @include respond(tab-port) {
+      width: 100%
+    }
   }
 
   h3 {

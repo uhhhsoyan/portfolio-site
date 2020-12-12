@@ -38,7 +38,7 @@ const Popup = ({ details }) => {
               <h3 className="heading-tertiary u-margin-bottom-small">Technology</h3>
                 <ul>
                   {details.tech.map(tech => {
-                    return <li>{tech}</li>
+                    return <li key={tech}>{tech}</li>
                   })}
                 </ul>
             </div>
