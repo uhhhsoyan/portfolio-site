@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="section-hero__text-box">
         <h1 className="heading-primary">
           <span className="heading-primary--main">Hi, I'm Eric.</span>
-          <span className="heading-primary--sub">a front-end software engineer</span>
+          <span className="heading-primary--sub">a full-stack software engineer</span>
         </h1>
       </div>
       <div className="section-hero__learn-more">

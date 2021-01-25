@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/css/index.css';
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaSass, FaJava, FaPython } from 'react-icons/fa';
-import { SiJavascript, SiTypescript, SiPostgresql, SiJquery } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJava, FaPython, FaSass } from 'react-icons/fa';
+import { SiJavascript, SiTypescript, SiMongodb, SiJquery, SiGraphql } from 'react-icons/si';
 import { DiRuby } from 'react-icons/di';
 
 const Resume = () => {
@@ -16,15 +16,15 @@ const Resume = () => {
               <div className="col-1-of-2">
                 <h3 className="heading-tertiary u-margin-bottom-medium u-center-text">Skills</h3>
                 <ul className="resume__list resume__list--columns-three">
-                  <li className="resume__item--icon"><FaReact color="#5ED4F3" className="resume__icon"/>React</li>
-                  <li className="resume__item--icon"><FaReact color="#5ED4F3" className="resume__icon" />React Native</li>
-                  <li className="resume__item--icon"><SiJavascript color="#EFD91D" className="resume__icon" />Javascript</li>
+                  <li className="resume__item--icon"><FaReact color="#5ED4F3" className="resume__icon" />React/React Native</li>
                   <li className="resume__item--icon"><SiTypescript color="#3074C1" className="resume__icon" />Typescript</li>
+                  <li className="resume__item--icon"><SiJavascript color="#EFD91D" className="resume__icon" />Javascript</li>
                   <li className="resume__item--icon"><FaNodeJs color="#539E43" className="resume__icon" />NodeJS</li>
+                  <li className="resume__item--icon"><SiGraphql color="#CE2F95" className="resume__icon" />GraphQL</li>
+                  <li className="resume__item--icon"><SiMongodb color="#4CA057" className="resume__icon" />MongoDB</li>
                   <li className="resume__item--icon"><FaHtml5 color="#DD4B24" className="resume__icon" />HTML</li>
                   <li className="resume__item--icon"><FaCss3Alt color="#2349DE" className="resume__icon" />CSS</li>
-                  <li className="resume__item--icon"><FaSass color="#C76395" className="resume__icon" />Sass</li>
-                  <li className="resume__item--icon"><SiPostgresql color="#32648D" className="resume__icon" />SQL</li>
+                  <li className="resume__item--icon"><FaSass color="#C16E99" className="resume__icon" />Sass</li>
                 </ul>
                 <h3 className="heading-tertiary u-margin-bottom-medium u-center-text">Proficient</h3>
                 <ul className="resume__list resume__list--columns-four">

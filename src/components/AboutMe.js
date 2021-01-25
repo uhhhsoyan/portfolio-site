@@ -14,16 +14,16 @@ const AboutMe = () => {
         <div className="col-1-of-2">
           <h3 className="heading-tertiary u-margin-bottom-small">I love to build beautiful apps</h3>
           <p className="paragraph">
-            I'm a front-end software engineer specializing in React & React Native. I love to build beautiful, 
+            I'm a full-stack software engineer specializing in React & React Native applications. I love to build beautiful, 
             powerful web and mobile apps - check out some of my work below!
           </p>
           <h3 className="heading-tertiary u-margin-bottom-small">My background</h3>
           <p className="paragraph">
             I studied Mechanical Engineering at Duke University, worked as a management consultant at Kearney,
-            and recently joined the family real estate business - all the while building out my front-end skillset and portfolio. 
+            and recently joined the family real estate business - all the while building out my full-stack skillset and portfolio. 
           </p>
           <p className="paragraph">
-            I also like to jump out of perfectly good airplanes :)
+            I also like to jump out of perfectly good airplanes!
           </p>
           <a href="#contact" className="btn-text">Let's connect &rarr;</a>
         </div>
