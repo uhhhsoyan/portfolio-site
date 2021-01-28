@@ -34,6 +34,16 @@ const Portfolio = () => {
             </div>
             <div className="col-1-of-3">
               <Card 
+                title='FB Clone'
+                platform='Mobile'
+                tech='React Native'
+                id='ericbook'
+                setFocusedProject={setFocusedProject}
+                description='Fullstack mobile social media app enabling users to login, create posts, and like and comment on posts from their friends.'
+              />
+            </div>
+            <div className="col-1-of-3">
+              <Card 
                 title='Weather App'
                 platform='Mobile'
                 tech='React Native'
@@ -42,7 +52,9 @@ const Portfolio = () => {
                 description='Weather app enabling users to search locations and view corresponding forecast and weather data. Powered by Metaweather API.'
               />
             </div>
-            <div className="col-1-of-3">
+          </div>
+          <div className="row">
+          <div className="col-1-of-3">
               <Card 
                 title='Windbnb'
                 platform='Mobile'
@@ -52,18 +64,6 @@ const Portfolio = () => {
                 description='Mock Airbnb mini-app allowing users to search for stays, filter by location and guests, and view results.'
               />
             </div>
-          </div>
-          <div className="row">
-            <div className="col-1-of-3">
-                <Card 
-                  title='Country Quiz'
-                  platform='Web'
-                  tech='React'
-                  id='country-quiz-web'
-                  setFocusedProject={setFocusedProject}
-                  description='React web app that quizzes users on country flags and capitals, with randomly generated questions from the REST Countries API.'
-                />
-              </div>
             <div className="col-1-of-3">
               <Card 
                 title='Omnifood'
@@ -75,15 +75,15 @@ const Portfolio = () => {
               />
             </div>
             <div className="col-1-of-3">
-              <Card 
-                title='Weather (Web)'
-                platform='Web'
-                tech='React'
-                id='weather-web'
-                setFocusedProject={setFocusedProject}
-                description='Weather app enabling users to search locations and view corresponding forecast and weather data. Powered by Metaweather API.'
-              />
-            </div>
+                <Card 
+                  title='Country Quiz'
+                  platform='Web'
+                  tech='React'
+                  id='country-quiz-web'
+                  setFocusedProject={setFocusedProject}
+                  description='React web app that quizzes users on country flags and capitals, with randomly generated questions from the REST Countries API.'
+                />
+              </div>
           </div>
       </div>
     </>

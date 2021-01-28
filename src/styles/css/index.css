@@ -274,6 +274,8 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card__picture--spotify-mobile {
       background-image: url(../../assets/img/thumbnail-spotify.jpg); }
+    .card__picture--ericbook {
+      background-image: url(../../assets/img/thumbnail-ericbook.png); }
     .card__picture--weather-mobile {
       background-image: url(../../assets/img/thumbnail-weather-mobile.PNG); }
     .card__picture--country-quiz-web {

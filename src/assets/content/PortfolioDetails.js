@@ -1,4 +1,5 @@
 import videoSpotify from '../img/video-spotify-test.mp4';
+import videoEricbook from '../img/video-ericbook.mp4';
 import videoWeatherMobile from '../img/video-weather-mobile.mp4';
 import videoCountryQuiz from '../img/video-country-quiz.mov';
 import videoOmnifood from '../img/video-omnifood-web.mov';
@@ -13,6 +14,16 @@ const PortfolioDetails = {
     video: videoSpotify,
     description: 'This project is a clone of the Spotify mobile app built with React Native. Users can use the tab navigator to access Home, Search, and Library screens. The app is connected to the Spotify Web API, enabling users to search for songs, artists, playlists, and more. The \'expo-av\' library enables playback of selected audio in the app.',
     github: 'https://github.com/uhhhsoyan/spotify-mobile',
+    site: null,
+  },
+  'ericbook': {
+    title: 'Ericbook',
+    subtitle: 'Full stack mobile social media app',
+    platform: 'Mobile',
+    tech: ['React Native', 'Typescript', 'Expo', 'GraphQL', 'NodeJS', 'MongoDB', 'Express'],
+    video: videoEricbook,
+    description: 'Ericbook is a fullstack social media app enabling users to create posts, view posts from friends, and like/comment on these posts. Users are authenticated with a username, email, and password. The backend is built with NodeJS, MongoDB, Express, and GraphQL. The \'React Native Paper\' library was leveraged for styling as this project was primarily focused on developing a proof of concept MERNG stack app.',
+    github: 'https://github.com/uhhhsoyan/ericbook',
     site: null,
   },
   'weather-mobile': {
@@ -55,16 +66,16 @@ const PortfolioDetails = {
     github: 'https://github.com/uhhhsoyan/windbnb-mobile',
     site: null,
   },
-  'weather-web': {
-    title: 'Weather (Web)',
-    subtitle: 'A simple react native weather app powered by Metaweather API',
-    platform: 'Web',
-    tech: ['React'],
-    video: videoWeatherMobile,
-    description: 'Simple react native weather app enabling users to search a location and view corresponding forecast and weather data. Powered by Metaweather API.',
-    github: 'https://github.com/uhhhsoyan/weather',
-    site: null,
-  },
+  // 'weather-web': {
+  //   title: 'Weather (Web)',
+  //   subtitle: 'A simple react native weather app powered by Metaweather API',
+  //   platform: 'Web',
+  //   tech: ['React'],
+  //   video: videoWeatherMobile,
+  //   description: 'Simple react native weather app enabling users to search a location and view corresponding forecast and weather data. Powered by Metaweather API.',
+  //   github: 'https://github.com/uhhhsoyan/weather',
+  //   site: null,
+  // },
 
 }
 
